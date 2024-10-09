@@ -1,0 +1,11 @@
+name: m
+on: push
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo " hello"
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo " hai"
